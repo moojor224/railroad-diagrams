@@ -1,11 +1,13 @@
-Railroad-diagram Generator
+## Railroad-diagram Generator
 ==========================
 
-<a href="https://github.com/tabatkins/railroad-diagrams/blob/gh-pages/images/rr-title.svg"><img src="https://github.com/tabatkins/railroad-diagrams/raw/gh-pages/images/rr-title.svg?sanitize=true" alt="Diagram(Stack('Generate', 'some'), OneOrMore(NonTerminal('railroad diagrams'), Comment('and more')))" title="Diagram(Stack('Generate', 'some'), OneOrMore(NonTerminal('railroad diagrams'), Comment('and more')))" width=10000></a>
+## Original Source code: [https://github.com/tabatkins/railroad-diagrams](https://github.com/tabatkins/railroad-diagrams)
+
+<a href="https://github.com/moojor224/railroad-diagrams/blob/gh-pages/images/rr-title.svg"><img src="https://github.com/moojor224/railroad-diagrams/raw/gh-pages/images/rr-title.svg?sanitize=true" alt="Diagram(Stack('Generate', 'some'), OneOrMore(NonTerminal('railroad diagrams'), Comment('and more')))" title="Diagram(Stack('Generate', 'some'), OneOrMore(NonTerminal('railroad diagrams'), Comment('and more')))" width=10000></a>
 
 This is a small library for generating railroad diagrams
 (like what [JSON.org](http://json.org) uses)
-using SVG, with both JS and Python ports.
+using SVG.
 
 Railroad diagrams are a way of visually representing a grammar
 in a form that is more readable than using regular expressions or BNF.
@@ -17,12 +19,9 @@ There are several railroad-diagram generators out there, but none of them had th
 Versions
 --------
 
-This library is supported both as a JS module and a Python module,
-and the install and use instructions for each
-are in their lang-specific READMEs.
+This library is supported as a JS module.
 
 * [JS-specific README](README-js.md)
-* [Python-specific README](README-py.md)
 
 
 Caveats
